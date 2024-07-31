@@ -2,7 +2,7 @@ const copyButton = document.getElementById('copy-ip');
 const copyMessage = document.getElementById('copy-message');
 
 copyButton.addEventListener('click', () => {
-navigator.clipboard.writeText('DiversityCraft.xyz')
+navigator.clipboard.writeText('DiversityCraft.my.pebble.host')
     .then(() => {
         copyMessage.textContent = 'IP copied, time to join in!';
         copyMessage.style.color = 'green';
