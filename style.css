@@ -1,6 +1,16 @@
 body {
-    background: linear-gradient(to bottom, #FFCCAA, bisque);
+    background: linear-gradient(to bottom, gray, bisque);
 }
+
+a {
+    color: darkred;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
 
 .main {
     display: flex;

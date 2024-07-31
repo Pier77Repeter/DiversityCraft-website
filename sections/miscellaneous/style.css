@@ -2,6 +2,15 @@ body {
     background: linear-gradient(to bottom, #FFCCAA, bisque);
 }
 
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
 .main {
     display: flex;
     flex-direction: column;
@@ -54,6 +63,16 @@ body {
     word-wrap: break-word
 }
 
+.faq-box-q {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 5px;
+    position: relative;
+    padding-top: 30px;
+    word-wrap: break-word
+}
+
 .faq-box hr {
     border: 1px solid gray;
     display: block;
@@ -79,12 +98,25 @@ body {
     text-align: center;
 }
 
-.faq-text h3 {
-    text-align: center;
-}
-
 .faq-text li {
     list-style: none;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+
+.column {
+    text-align: left;
+}
+
+.column hr {
+    border: 1px solid cadetblue;
+    display: block;
+    margin: 2 auto;
+    width: inherit;
 }
 
 /* news.html section */
@@ -132,7 +164,7 @@ body {
     list-style: none;
 }
 
-hr {
+.copyright-text hr {
     border: 1px solid burlywood;
     display: block;
     width: 822px;
@@ -144,4 +176,5 @@ hr {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: medium;
     font-weight: bold;
+    text-align: center;
 }

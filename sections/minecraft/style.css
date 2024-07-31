@@ -2,6 +2,15 @@ body {
     background: linear-gradient(to bottom, #FFCCAA, bisque);
 }
 
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
 .main {
     display: flex;
     flex-direction: column;
