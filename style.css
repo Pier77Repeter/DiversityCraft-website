@@ -1,0 +1,188 @@
+body {
+    background: linear-gradient(to bottom, #FFCCAA, bisque);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description-box {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 6px;
+    position: relative;
+    padding-top: 30px;
+    width: 822px;
+    word-wrap: break-word
+}
+
+.description-title {
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.description-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
+.image-box {
+    margin-top: 10px;
+}
+
+.navigation-box {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    position: relative;
+    padding-top: 30px;
+    width: 822px;
+    word-wrap: break-word
+}
+
+.navigation-title {
+    background-color: #FFCCAA;
+    color: brown;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navigation-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+.column {
+    text-align: left;
+}
+
+.column ul {
+    line-height:170%;
+}
+
+.column h3 {
+    margin: 0;
+    text-decoration: underline;
+}
+
+.column li {
+    list-style: none;
+}
+
+.donators-box {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 5px;
+    position: relative;
+    padding-top: 30px;
+    width: 822px;
+    word-wrap: break-word
+}
+
+.donators-title {
+    background-color: #FFCCAA;
+    color: brown;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.donators-text {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    text-align: center;
+}
+
+.donators-container {
+    display: grid;
+    grid-template-columns: min-content 1;
+    justify-content: center;
+}
+
+.donators-colum {
+    text-align: left;
+}
+
+.donators-colum h3 {
+    margin: 0;
+}
+
+.status-payment-done {
+    color: green;
+}
+
+.status-payment-not-done {
+    color: red;
+}
+
+.stats-box {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 5px;
+    position: relative;
+    padding-top: 30px;
+    width: 822px;
+    word-wrap: break-word
+}
+
+.stats-title {
+    background-color: #FFCCAA;
+    color: brown;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.stats-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid burlywood;
+    display: block;
+    width: 822px;
+    margin: 2 auto;
+}
+
+.copyright-text {
+    color: brown;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
