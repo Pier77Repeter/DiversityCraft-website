@@ -84,16 +84,6 @@ a:hover {
     word-wrap: break-word
 }
 
-.faq-box-q {
-    background-color: whitesmoke;
-    border: 1px solid black;
-    padding: 10px;
-    margin-top: 5px;
-    position: relative;
-    padding-top: 30px;
-    word-wrap: break-word
-}
-
 .faq-box hr {
     max-width: 822px;
     width: 100%;
@@ -124,6 +114,10 @@ a:hover {
     list-style: none;
 }
 
+.faq-text img {
+    border: 1px solid black;
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -151,7 +145,14 @@ a:hover {
     margin-top: 5px;
     position: relative;
     padding-top: 30px;
-    word-wrap: break-word
+    word-wrap: break-word;
+}
+
+.news-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: 1px solid black;
 }
 
 .news-box hr {
@@ -188,10 +189,11 @@ a:hover {
     list-style: none;
 }
 
-.news-box img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+.news-box .yt-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
 }
 
 hr {

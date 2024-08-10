@@ -124,6 +124,10 @@ a:hover {
     list-style: none;
 }
 
+.modifications-text img {
+    border: 1px solid black;
+}
+
 /* commands.html section */
 .commands-box {
     max-width: 822px;
@@ -175,6 +179,14 @@ a:hover {
 
 .commands-text li {
     list-style: none;
+}
+
+.commands-text p {
+    text-align: center;
+}
+
+.commands-text img {
+    border: 1px solid black;
 }
 
 hr {
