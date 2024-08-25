@@ -4,14 +4,14 @@ const copyMessage = document.getElementById('copy-message');
 copyButton.addEventListener('click', () => {
 navigator.clipboard.writeText('DiversityCraft.my.pebble.host')
     .then(() => {
-        copyMessage.textContent = 'IP copied, time to join in!';
+        copyMessage.textContent = 'Server IP copied, time to join in!';
         copyMessage.style.color = 'green';
         setTimeout(() => {
         copyMessage.textContent = '';
         }, 3000);
     })
     .catch(err => {
-        copyMessage.textContent = 'Copy failed, somewhow...!';
+        copyMessage.textContent = 'Copy failed, somewhow...';
         copyMessage.style.color = 'red';
     });
 });
