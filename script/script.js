@@ -21,7 +21,7 @@ const imageArray = ['clicktocopyiplogo.jpg', 'banner-1.jpg', 'banner-2.jpg', 'ba
 
 function getRandomImage() {
     const randomIndex = Math.floor(Math.random() * imageArray.length);
-    randomImage.src = 'media/' + imageArray[randomIndex];
+    randomImage.src = '../media/' + imageArray[randomIndex];
 }
 
 getRandomImage();
