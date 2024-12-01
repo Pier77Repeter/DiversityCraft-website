@@ -21,6 +21,8 @@ a:hover {
 .logo {
     max-width: 622px;
     height: 128px;
+    margin-top: 8px;
+    margin-bottom: 12px;
 }
 
 .logo img{
