@@ -137,6 +137,67 @@ a:hover {
     width: inherit;
 }
 
+.sidebar {
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.sidebar h2 {
+    margin-left: 2%;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-header-q {
+    background-color: lightgreen;
+    color: #333;
+    padding: 1px;
+    text-align: left;
+}
+
+.sidebar-header-a {
+    background-color: lightskyblue;
+    color: #333;
+    padding: 1px;
+    text-align: left;
+}
+
+/* faq.html custom colums */
+.container-faq {
+    display: flex;
+    gap: 20px;
+}
+
+.column-faq {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.column-faq h2 {
+    margin-top: 0;
+}
+
+.column-faq ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+}
+
+.column-faq li a {
+    color: blue;
+    text-decoration: none;
+}
+
+.column-faq li a:hover {
+    color: red;
+}
+
 /* news.html section */
 .news-box {
     max-width: 822px;
