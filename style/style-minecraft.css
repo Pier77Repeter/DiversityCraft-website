@@ -65,7 +65,7 @@ a:hover {
 .menu hr {
     max-width: 822px;
     width: 100%;
-    border: 1px solid gray;
+    border: 2px solid rgb(134, 120, 0);
     display: block;
     margin: 2 auto;
 }
