@@ -1,300 +1,300 @@
 body {
-    background: linear-gradient(to bottom, gray, bisque);
+  background: linear-gradient(to bottom, gray, bisque);
 }
 
 a {
-    color: darkred;
-    text-decoration: none;
+  color: darkred;
+  text-decoration: none;
 }
 
 a:hover {
-    color: red;
+  color: red;
 }
 
 .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto 0;
 }
 
 .logo {
-    max-width: 622px;
-    height: 128px;
-    margin-top: 8px;
-    margin-bottom: 12px;
+  max-width: 622px;
+  height: 128px;
+  margin-top: 8px;
+  margin-bottom: 12px;
 }
 
-.logo img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .description-box {
-    max-width: 822px;
-    width: 100%;
-    background-color: whitesmoke;
-    border: 1px solid black;
-    padding: 10px;
-    position: relative;
-    padding-top: 30px;
-    word-wrap: break-word
+  max-width: 822px;
+  width: 100%;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  padding: 10px;
+  position: relative;
+  padding-top: 30px;
+  word-wrap: break-word;
 }
 
 .description-title {
-    background-color: brown;
-    color: white;
-    font-weight: bold;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    padding: 5px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+  background-color: brown;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .description-text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
 }
 
 .image-box {
-    margin-top: 10px;
-    max-width: 800px;
-    height: 150px;
+  margin-top: 10px;
+  max-width: 800px;
+  height: 150px;
 }
 
-.image-box img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .navigation-box {
-    max-width: 822px;
-    width: 100%;
-    background-color: whitesmoke;
-    border: 1px solid black;
-    padding: 10px;
-    margin-top: 10px;
-    position: relative;
-    padding-top: 30px;
-    word-wrap: break-word
+  max-width: 822px;
+  width: 100%;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  position: relative;
+  padding-top: 30px;
+  word-wrap: break-word;
 }
 
 .navigation-title {
-    background-color: #FFCCAA;
-    color: brown;
-    font-weight: bold;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    padding: 5px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+  background-color: #ffccaa;
+  color: brown;
+  font-weight: bold;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .navigation-text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: smaller;
-    text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  text-align: center;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .column {
-    text-align: left;
+  text-align: left;
 }
 
 .column ul {
-    line-height:180%;
+  line-height: 180%;
 }
 
 .column h3 {
-    margin: 0;
-    text-decoration: underline;
+  margin: 0;
+  text-decoration: underline;
 }
 
 .column li {
-    list-style: none;
+  list-style: none;
 }
 
 .donators-box {
-    max-width: 822px;
-    width: 100%;
-    background-color: whitesmoke;
-    border: 1px solid black;
-    padding: 10px;
-    margin-top: 5px;
-    position: relative;
-    padding-top: 30px;
-    word-wrap: break-word
+  max-width: 822px;
+  width: 100%;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 5px;
+  position: relative;
+  padding-top: 30px;
+  word-wrap: break-word;
 }
 
 .donators-title {
-    background-color: #FFCCAA;
-    color: brown;
-    font-weight: bold;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    padding: 5px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+  background-color: #ffccaa;
+  color: brown;
+  font-weight: bold;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .donators-text {
-    margin-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: smaller;
-    text-align: center;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  text-align: center;
 }
 
 .donators-container {
-    display: grid;
-    grid-template-columns: min-content 1;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: min-content 1;
+  justify-content: center;
 }
 
 .donators-colum {
-    text-align: left;
+  text-align: left;
 }
 
 .donators-colum h3 {
-    margin: 5px;
+  margin: 5px;
 }
 
 .status-payment-done {
-    color: green;
+  color: green;
 }
 
 .status-payment-not-done {
-    color: red;
+  color: red;
 }
 
 .recent-news-box {
-    max-width: 822px;
-    width: 100%;
-    background-color: whitesmoke;
-    border: 1px solid black;
-    padding: 10px;
-    margin-top: 5px;
-    position: relative;
-    padding-top: 30px;
-    word-wrap: break-word
+  max-width: 822px;
+  width: 100%;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 5px;
+  position: relative;
+  padding-top: 30px;
+  word-wrap: break-word;
 }
 
 .recent-news-title {
-    background-color: #FFCCAA;
-    color: brown;
-    font-weight: bold;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    padding: 5px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+  background-color: #ffccaa;
+  color: brown;
+  font-weight: bold;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .news-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .news-grid-item {
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
 }
 
 .news-grid-item h4 {
-    color: brown;
-    font-weight: bold;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    margin-bottom: 15px;
+  color: brown;
+  font-weight: bold;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin-bottom: 15px;
 }
 
 .news-grid-item img {
-    max-width: 100%;
-    border: 1px solid brown
+  max-width: 100%;
+  border: 1px solid brown;
 }
 
 .news-grid-item p {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: smaller;
-    margin: 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  margin: 5px;
 }
 
 .stats-box {
-    max-width: 822px;
-    width: 100%;
-    background-color: whitesmoke;
-    border: 1px solid black;
-    padding: 10px;
-    margin-top: 5px;
-    position: relative;
-    padding-top: 30px;
-    word-wrap: break-word
+  max-width: 822px;
+  width: 100%;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 5px;
+  position: relative;
+  padding-top: 30px;
+  word-wrap: break-word;
 }
 
 .stats-title {
-    background-color: #FFCCAA;
-    color: brown;
-    font-weight: bold;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    padding: 5px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+  background-color: #ffccaa;
+  color: brown;
+  font-weight: bold;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .stats-text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: smaller;
-    text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  text-align: center;
 }
 
 hr {
-    max-width: 822px;
-    width: 100%;
-    border: 1px solid brown;
-    display: block;
-    margin-top: 2 auto;
-    margin-bottom: 0px;
+  max-width: 822px;
+  width: 100%;
+  border: 1px solid brown;
+  display: block;
+  margin-top: 2 auto;
+  margin-bottom: 0px;
 }
 
 .downbar-box div {
-    margin: 0;
+  margin: 0;
 }
 
 .container-downbar {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
 }
 
 .square {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid brown;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: smaller;
-    padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid brown;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  padding: 3px;
 }
 
 .copyright-text {
-    margin-top: 20px;
-    color: brown;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: medium;
-    font-weight: bold;
+  margin-top: 20px;
+  color: brown;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
 }

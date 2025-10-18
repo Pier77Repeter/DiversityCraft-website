@@ -1,207 +1,207 @@
 body {
-    background: linear-gradient(to bottom, gray, bisque);
+  background: linear-gradient(to bottom, gray, bisque);
 }
 
 a {
-    color: blue;
-    text-decoration: none;
+  color: blue;
+  text-decoration: none;
 }
 
 a:hover {
-    color: red;
+  color: red;
 }
 
 .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto 0;
 }
 
 .logo {
-    max-width: 622px;
-    height: 128px;
-    margin-top: 8px;
-    margin-bottom: 12px;
+  max-width: 622px;
+  height: 128px;
+  margin-top: 8px;
+  margin-bottom: 12px;
 }
 
-.logo img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .section-title {
-    color: brown;
-    font-weight: bold;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    margin-top: 30px;
-    font-size: larger;
+  color: brown;
+  font-weight: bold;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin-top: 30px;
+  font-size: larger;
 }
 
 .section-title h1 {
-    margin: 0;
+  margin: 0;
 }
 
 .image-box {
-    margin-top: 10px;
-    max-width: 800px;
-    height: 150px;
+  margin-top: 10px;
+  max-width: 800px;
+  height: 150px;
 }
 
-.image-box img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .menu {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .menu hr {
-    max-width: 822px;
-    width: 100%;
-    border: 2px solid rgb(134, 120, 0);
-    display: block;
-    margin: 2 auto;
+  max-width: 822px;
+  width: 100%;
+  border: 2px solid rgb(188, 170, 0);
+  display: block;
+  margin: 2 auto;
 }
 
 .menu h2 {
-    margin: 10px;
+  margin: 10px;
 }
 
 .modifications-box {
-    max-width: 822px;
-    width: 100%;
-    background-color: whitesmoke;
-    border: 1px solid black;
-    padding: 10px;
-    margin-top: 5px;
-    position: relative;
-    padding-top: 30px;
-    word-wrap: break-word
+  max-width: 822px;
+  width: 100%;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 5px;
+  position: relative;
+  padding-top: 30px;
+  word-wrap: break-word;
 }
 
 .modifications-box img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .modifications-box hr {
-    max-width: 822px;
-    width: 100%;
-    border: 1px solid gray;
-    display: block;
-    margin: 2 auto;
+  max-width: 822px;
+  width: 100%;
+  border: 1px solid gray;
+  display: block;
+  margin: 2 auto;
 }
 
 .modifications-title {
-    background-color: #FFCCAA;
-    color: brown;
-    font-weight: bold;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    padding: 5px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+  background-color: #ffccaa;
+  color: brown;
+  font-weight: bold;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .modifications-text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: smaller;
-    text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  text-align: left;
 }
 
 .modifications-text h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .modifications-text li {
-    list-style: none;
+  list-style: none;
 }
 
 .modifications-text img {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 /* commands.html section */
 .commands-box {
-    max-width: 822px;
-    width: 100%;
-    background-color: whitesmoke;
-    border: 1px solid black;
-    padding: 10px;
-    margin-top: 5px;
-    position: relative;
-    padding-top: 30px;
-    word-wrap: break-word
+  max-width: 822px;
+  width: 100%;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 5px;
+  position: relative;
+  padding-top: 30px;
+  word-wrap: break-word;
 }
 
 .commands-box img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .commands-box hr {
-    max-width: 822px;
-    width: 100%;
-    border: 1px solid gray;
-    display: block;
-    margin: 2 auto;
+  max-width: 822px;
+  width: 100%;
+  border: 1px solid gray;
+  display: block;
+  margin: 2 auto;
 }
 
 .commands-title {
-    background-color: #FFCCAA;
-    color: brown;
-    font-weight: bold;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    padding: 5px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+  background-color: #ffccaa;
+  color: brown;
+  font-weight: bold;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .commands-text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: smaller;
-    text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  text-align: left;
 }
 
 .commands-text h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .commands-text li {
-    list-style: none;
+  list-style: none;
 }
 
 .commands-text p {
-    text-align: center;
+  text-align: center;
 }
 
 .commands-text img {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 hr {
-    max-width: 822px;
-    width: 100%;
-    border: 1px solid brown;
-    display: block;
-    margin: 2 auto;
+  max-width: 822px;
+  width: 100%;
+  border: 1px solid brown;
+  display: block;
+  margin: 2 auto;
 }
 
 .copyright-text {
-    color: brown;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: medium;
-    font-weight: bold;
+  color: brown;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
 }
