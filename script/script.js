@@ -3,7 +3,7 @@ const copyMessage = document.getElementById("copy-message");
 
 copyButton.addEventListener("click", () => {
   navigator.clipboard
-    .writeText("diversitycraft.xyz")
+    .writeText("diversitycraft.org")
     .then(() => {
       copyMessage.textContent = "Server IP copied, time to join in!";
       copyMessage.style.color = "green";

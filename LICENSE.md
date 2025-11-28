@@ -33,7 +33,7 @@ This license is designed to be easy to understand. It explains what you **can** 
   - Use it in any way that generates revenue, directly or indirectly.
   - Use it to promote a business or commercial entity.
 
-- **Watermark use:** You are **not permitted** to use the associated watermark, specifically "DiversityBOT". This includes displaying or incorporating this watermark in any public-facing use, even within your allowed private uses.
+- **Watermark use:** You are **not permitted** to use the associated watermark, specifically "DiversityCraft". This includes displaying or incorporating this watermark in any public-facing use, even within your allowed private uses.
 
 - **Claiming ownership publicly:** You **must not** publicly claim ownership of this project or its original creation. You should acknowledge that this project originates from its original creator [Pier77Repeter](https://github.com/Pier77Repeter).
 
@@ -47,4 +47,4 @@ This license is designed to be easy to understand. It explains what you **can** 
 
 ---
 
-**DiversityBOT© 2021-2025 Copyright**
+**DiversityCraft© 2021-2025 Copyright**
