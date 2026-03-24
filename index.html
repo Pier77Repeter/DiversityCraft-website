@@ -43,9 +43,36 @@
             </div>
         </div>
 
-        <div class="image-box">
-            <img id="randomImage" src="">
-        </div>
+        <style>
+            .banner {
+            display: none;
+            background-color: #ffdf66;
+            color: #222;
+            text-align: center;
+            padding: 12px 16px;
+            font-family:
+                system-ui,
+                -apple-system,
+                "Segoe UI",
+                Roboto,
+                "Helvetica Neue",
+                Arial;
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+            margin: 12px auto;
+            max-width: 822px;
+            }
+
+            .banner.visible {
+            display: block;
+            }
+        </style>
+
+        <div class="banner" id="banner"><b>⚠️ Website backend is being reconstructed — updates are paused until work is complete. <br> Try the new website <a href="TEST/index.html">here</a></b></div>
+
+        <script>
+            document.getElementById("banner").classList.add("visible");
+        </script>
 
         <div class="navigation-box">
             <div class="navigation-title">Section & Pages</div>
@@ -87,8 +114,8 @@
             <div class="donators-text">
                 <div class="donators-container">
                     <div class="donators-colum">
-                        <h3>Months: November to February - Status: <span class="status-payment-done">PAID</span></h3>
-                        <h3>Months: March to May - Status: <span class="status-payment-not-done">NOT PAID</span>
+                        <h3>Months: November to January - Status: <span class="status-payment-done">PAID</span></h3>
+                        <h3>Months: February to April - Status: <span class="status-payment-not-done">NOT PAID</span>
                         </h3>
                         <p>The server only runs thanks to server donations, it wouldn't be possible without your
                             support. All the money donated to the server will ONLY be invested into this community, NO
@@ -104,11 +131,6 @@
         <div class="recent-news-box">
             <div class="recent-news-title">Recent news</div>
             <div class="news-grid">
-                <div class="news-grid-item">
-                    <h4>04/02/26 - Happy Birthday!</h4>
-                    <a href="/miscellaneous/news.html"><img src="media/dc-happy-birthday.jpg" alt="Image"></a>
-                    <p>Creativity first!</p>
-                </div>
                 <div class="news-grid-item">
                     <h4>24/12/25 - December test!</h4>
                     <a href="/miscellaneous/news.html"><img src="media/snowman.jpg" alt="Image"></a>
@@ -161,7 +183,7 @@
         <div class="stats-box">
             <div class="stats-title">Minecraft server stats</div>
             <div class="stats-text">
-                <h3>Community age: 12 years - World size in GB: Soon out! - Players joined: Soon out!</h3>
+                <h3>Community age: 11.8 years - World size in GB: Soon out! - Players joined: Soon out!</h3>
             </div>
         </div>
 

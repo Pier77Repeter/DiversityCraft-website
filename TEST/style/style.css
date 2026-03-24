@@ -1,0 +1,820 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 25px;
+  position: relative;
+
+  /* THIS IS MY FIX */
+	max-width: 1000px;
+  min-height: min-content;
+	margin: 0 auto;  
+}
+
+.main-container .logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.main-container .dc-logo {
+  position: relative;
+  max-width: 680px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4.86;
+  object-fit: cover;
+}
+
+.main-container .div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  margin-left: -1.00px;
+  margin-right: -1.00px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.main-container .intro-title {
+  gap: 10px;
+  padding: 7px 10px;
+  background-color: #a52a2a;
+  display: flex;
+  align-items: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.main-container .intro-title-text {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-container .intro-content {
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.main-container .intro-description {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.main-container .intro-IP-text {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  height: 30px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+.main-container .banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.main-container .banner {
+  position: relative;
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 5.33;
+  object-fit: cover;
+}
+
+.main-container .div-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffccaa;
+}
+
+.main-container .text-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #a52a2a;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-container .nav-sections {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+  padding: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+}
+
+.main-container .table {
+  display: flex;
+  flex-direction: column;
+  width: 207px;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.main-container .title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-decoration: underline;
+}
+
+.main-container .text-list {
+  align-self: stretch;
+  font-family: "Inter-Regular", Helvetica;
+  color: #8b0000;
+  font-size: 14px;
+  line-height: 25px;
+  position: relative;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+/* Nav list reset - removes default ul/li styles to match original text-list appearance */
+.main-container .nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container .nav-list li {
+  font-family: "Inter-Regular", Helvetica;
+  color: #8b0000;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.main-container .donations-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+}
+
+.main-container .donations-payment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.main-container .donations-not-paid {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-container .span {
+  font-weight: 700;
+  color: #000000;
+}
+
+.main-container .text-wrapper-2 {
+  font-weight: 700;
+  color: #008000;
+}
+
+.main-container .donations-paid-text {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-container .text-wrapper-3 {
+  color: #000000;
+}
+
+.main-container .text-wrapper-4 {
+  color: #ff0000;
+}
+
+.main-container .donations {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.main-container .text-wrapper-5 {
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.main-container .text-wrapper-6 {
+  text-decoration: underline;
+}
+
+.main-container .news-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+}
+
+.main-container .news-single {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.main-container .news-headline-text {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #a52a2a;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-container .element {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.main-container .news-description {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-container .stats-content {
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 10px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.main-container .stats-text {
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.main-container .separator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.main-container .separator {
+  height: 2px;
+  background-color: #a52a2a;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.main-container .namemc-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.main-container .iframe {
+  display: flex;
+  flex-direction: column;
+  max-width: 1904px;
+  width: 728px;
+  height: 90px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.main-container .html {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 90px;
+  background-color: #121212;
+}
+
+.main-container .div-card {
+  max-height: 90px;
+  background-color: #0f0f0f;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #0000002d;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  position: relative;
+}
+
+.main-container .div-card-header {
+  align-self: stretch;
+  flex: 0 0 auto;
+  background-color: #21252908;
+  border-radius: 5px 5px 0px 0px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  position: relative;
+}
+
+.main-container .div-row {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0px 0px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.main-container .div-col-auto {
+  display: inline-flex;
+  max-width: 726px;
+  align-items: flex-start;
+  flex: 0 0 auto;
+  align-self: stretch;
+  flex-direction: column;
+  padding: 4px;
+  position: relative;
+}
+
+.main-container .text-wrapper-7 {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--www-diversitycraft-org-roboto-regular-font-family);
+  color: #aaaaaa;
+  font-size: var(--www-diversitycraft-org-roboto-regular-font-size);
+  line-height: var(--www-diversitycraft-org-roboto-regular-line-height);
+  white-space: nowrap;
+  position: relative;
+  font-weight: var(--www-diversitycraft-org-roboto-regular-font-weight);
+  letter-spacing: var(--www-diversitycraft-org-roboto-regular-letter-spacing);
+  font-style: var(--www-diversitycraft-org-roboto-regular-font-style);
+}
+
+.main-container .img {
+  align-self: stretch;
+  position: relative;
+  max-width: 726px;
+  flex: 0 0 auto;
+}
+
+.main-container .div-col {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  flex-direction: column;
+  padding: 4px;
+  position: relative;
+}
+
+.main-container .text-wrapper-8 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--www-diversitycraft-org-roboto-bold-font-family);
+  font-weight: var(--www-diversitycraft-org-roboto-bold-font-weight);
+  color: #ffffff;
+  font-size: var(--www-diversitycraft-org-roboto-bold-font-size);
+  text-align: center;
+  letter-spacing: var(--www-diversitycraft-org-roboto-bold-letter-spacing);
+  line-height: var(--www-diversitycraft-org-roboto-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--www-diversitycraft-org-roboto-bold-font-style);
+}
+
+.main-container .div-row-2 {
+  align-items: center;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.main-container .element-png-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4px;
+  position: relative;
+  max-width: 726px;
+  flex: 0 0 auto;
+}
+
+.main-container .element-png {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  background-image: url(./img/671f10de2c7d8318-png.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.main-container .div-col-2 {
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+  flex-grow: 1;
+  flex-direction: column;
+  padding: 4px;
+  position: relative;
+}
+
+.main-container .div-2 {
+  display: flex;
+  max-height: 48px;
+  align-items: flex-start;
+  gap: 605.92px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  overflow-x: scroll;
+}
+
+.main-container .div-2::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+.main-container .text-wrapper-9 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--www-diversitycraft-org-roboto-regular-font-family);
+  font-weight: var(--www-diversitycraft-org-roboto-regular-font-weight);
+  color: #ffaa00;
+  font-size: var(--www-diversitycraft-org-roboto-regular-font-size);
+  letter-spacing: var(--www-diversitycraft-org-roboto-regular-letter-spacing);
+  line-height: var(--www-diversitycraft-org-roboto-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--www-diversitycraft-org-roboto-regular-font-style);
+}
+
+.main-container .span-float-end {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.main-container .p {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: var(--www-diversitycraft-org-roboto-regular-font-family);
+  color: transparent;
+  font-size: var(--www-diversitycraft-org-roboto-regular-font-size);
+  line-height: var(--www-diversitycraft-org-roboto-regular-line-height);
+  position: relative;
+  font-weight: var(--www-diversitycraft-org-roboto-regular-font-weight);
+  letter-spacing: var(--www-diversitycraft-org-roboto-regular-letter-spacing);
+  font-style: var(--www-diversitycraft-org-roboto-regular-font-style);
+}
+
+.main-container .text-wrapper-10 {
+  color: #aaaaaa;
+  font-family: var(--www-diversitycraft-org-roboto-regular-font-family);
+  font-style: var(--www-diversitycraft-org-roboto-regular-font-style);
+  font-weight: var(--www-diversitycraft-org-roboto-regular-font-weight);
+  letter-spacing: var(--www-diversitycraft-org-roboto-regular-letter-spacing);
+  line-height: var(--www-diversitycraft-org-roboto-regular-line-height);
+  font-size: var(--www-diversitycraft-org-roboto-regular-font-size);
+}
+
+.main-container .text-wrapper-11 {
+  color: #555555;
+  font-family: var(--www-diversitycraft-org-roboto-regular-font-family);
+  font-style: var(--www-diversitycraft-org-roboto-regular-font-style);
+  font-weight: var(--www-diversitycraft-org-roboto-regular-font-weight);
+  letter-spacing: var(--www-diversitycraft-org-roboto-regular-letter-spacing);
+  line-height: var(--www-diversitycraft-org-roboto-regular-line-height);
+  font-size: var(--www-diversitycraft-org-roboto-regular-font-size);
+}
+
+.main-container .div-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.main-container .footer-links {
+  display: grid;
+  grid-template-columns: repeat(4, fit-content(100%));
+  grid-template-rows: repeat(1, fit-content(100%));
+  width: fit-content;
+  height: fit-content;
+}
+
+.main-container .footer-text {
+  position: relative;
+  grid-row: 1 / 2;
+  grid-column: 4 / 5;
+  width: 91px;
+  height: fit-content;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  padding: 4px 10px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-color: #a52a2a;
+}
+
+.main-container .text-wrapper-12 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--www-diversitycraft-org-inter-bold-font-family);
+  font-weight: var(--www-diversitycraft-org-inter-bold-font-weight);
+  color: #8b0000;
+  font-size: var(--www-diversitycraft-org-inter-bold-font-size);
+  letter-spacing: var(--www-diversitycraft-org-inter-bold-letter-spacing);
+  line-height: var(--www-diversitycraft-org-inter-bold-line-height);
+  font-style: var(--www-diversitycraft-org-inter-bold-font-style);
+}
+
+.main-container .footer-text-github-wrapper {
+  grid-column: 3 / 4;
+  width: 91px;
+  display: flex;
+  position: relative;
+  grid-row: 1 / 2;
+  height: fit-content;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  padding: 4px 10px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-color: #a52a2a;
+}
+
+.main-container .footer-text-status-wrapper {
+  grid-column: 2 / 3;
+  width: 91px;
+  display: flex;
+  position: relative;
+  grid-row: 1 / 2;
+  height: fit-content;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  padding: 4px 10px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-color: #a52a2a;
+}
+
+.main-container .footer-text-support-wrapper {
+  grid-column: 1 / 2;
+  width: fit-content;
+  display: inline-flex;
+  position: relative;
+  grid-row: 1 / 2;
+  height: fit-content;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  padding: 4px 10px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-color: #a52a2a;
+}
+
+.main-container .copyright-container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 0px 0px;
+  flex: 0 0 auto;
+  align-items: center;
+  position: relative;
+}
+
+.main-container .copyright-text {
+  display: flex;
+  width: 218px;
+  margin-top: -1.00px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #a52a2a;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  align-items: center;
+  position: relative;
+}

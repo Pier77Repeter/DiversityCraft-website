@@ -1,0 +1,35 @@
+:root {
+  --wwwdiversitycraftorgemperor: rgba(85, 85, 85, 1);
+  --wwwdiversitycraftorgjapanese-laurel: rgba(0, 128, 0, 1);
+  --wwwdiversitycraftorgred: rgba(255, 0, 0, 1);
+  --www-diversitycraft-org-inter-bold-font-family: "Inter", Helvetica;
+  --www-diversitycraft-org-inter-bold-font-weight: 700;
+  --www-diversitycraft-org-inter-bold-font-size: 13px;
+  --www-diversitycraft-org-inter-bold-letter-spacing: 0px;
+  --www-diversitycraft-org-inter-bold-line-height: normal;
+  --www-diversitycraft-org-inter-bold-font-style: normal;
+  --www-diversitycraft-org-inter-bold-underline-font-family: "Inter", Helvetica;
+  --www-diversitycraft-org-inter-bold-underline-font-weight: 700;
+  --www-diversitycraft-org-inter-bold-underline-font-size: 14.899999618530273px;
+  --www-diversitycraft-org-inter-bold-underline-letter-spacing: 0px;
+  --www-diversitycraft-org-inter-bold-underline-line-height: 24px;
+  --www-diversitycraft-org-inter-bold-underline-font-style: normal;
+  --www-diversitycraft-org-inter-regular-font-family: "Inter", Helvetica;
+  --www-diversitycraft-org-inter-regular-font-weight: 400;
+  --www-diversitycraft-org-inter-regular-font-size: 13.300000190734863px;
+  --www-diversitycraft-org-inter-regular-letter-spacing: 0px;
+  --www-diversitycraft-org-inter-regular-line-height: 24px;
+  --www-diversitycraft-org-inter-regular-font-style: normal;
+  --www-diversitycraft-org-roboto-regular-font-family: "Roboto", Helvetica;
+  --www-diversitycraft-org-roboto-regular-font-weight: 400;
+  --www-diversitycraft-org-roboto-regular-font-size: 16px;
+  --www-diversitycraft-org-roboto-regular-letter-spacing: 0px;
+  --www-diversitycraft-org-roboto-regular-line-height: 24px;
+  --www-diversitycraft-org-roboto-regular-font-style: normal;
+  --www-diversitycraft-org-roboto-bold-font-family: "Roboto", Helvetica;
+  --www-diversitycraft-org-roboto-bold-font-weight: 700;
+  --www-diversitycraft-org-roboto-bold-font-size: 16px;
+  --www-diversitycraft-org-roboto-bold-letter-spacing: 0px;
+  --www-diversitycraft-org-roboto-bold-line-height: 24px;
+  --www-diversitycraft-org-roboto-bold-font-style: normal;
+}
