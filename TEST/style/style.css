@@ -1,3 +1,85 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: local("Inter-Bold");
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: local("Inter-Regular");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter");
+}
+
+:root {
+  --wwwdiversitycraftorgemperor: rgba(85, 85, 85, 1);
+  --wwwdiversitycraftorgjapanese-laurel: rgba(0, 128, 0, 1);
+  --wwwdiversitycraftorgred: rgba(255, 0, 0, 1);
+  --www-diversitycraft-org-inter-bold-font-family: "Inter", Helvetica;
+  --www-diversitycraft-org-inter-bold-font-weight: 700;
+  --www-diversitycraft-org-inter-bold-font-size: 13px;
+  --www-diversitycraft-org-inter-bold-letter-spacing: 0px;
+  --www-diversitycraft-org-inter-bold-line-height: normal;
+  --www-diversitycraft-org-inter-bold-font-style: normal;
+  --www-diversitycraft-org-inter-bold-underline-font-family: "Inter", Helvetica;
+  --www-diversitycraft-org-inter-bold-underline-font-weight: 700;
+  --www-diversitycraft-org-inter-bold-underline-font-size: 14.899999618530273px;
+  --www-diversitycraft-org-inter-bold-underline-letter-spacing: 0px;
+  --www-diversitycraft-org-inter-bold-underline-line-height: 24px;
+  --www-diversitycraft-org-inter-bold-underline-font-style: normal;
+  --www-diversitycraft-org-inter-regular-font-family: "Inter", Helvetica;
+  --www-diversitycraft-org-inter-regular-font-weight: 400;
+  --www-diversitycraft-org-inter-regular-font-size: 13.300000190734863px;
+  --www-diversitycraft-org-inter-regular-letter-spacing: 0px;
+  --www-diversitycraft-org-inter-regular-line-height: 24px;
+  --www-diversitycraft-org-inter-regular-font-style: normal;
+  --www-diversitycraft-org-roboto-regular-font-family: "Roboto", Helvetica;
+  --www-diversitycraft-org-roboto-regular-font-weight: 400;
+  --www-diversitycraft-org-roboto-regular-font-size: 16px;
+  --www-diversitycraft-org-roboto-regular-letter-spacing: 0px;
+  --www-diversitycraft-org-roboto-regular-line-height: 24px;
+  --www-diversitycraft-org-roboto-regular-font-style: normal;
+  --www-diversitycraft-org-roboto-bold-font-family: "Roboto", Helvetica;
+  --www-diversitycraft-org-roboto-bold-font-weight: 700;
+  --www-diversitycraft-org-roboto-bold-font-size: 16px;
+  --www-diversitycraft-org-roboto-bold-letter-spacing: 0px;
+  --www-diversitycraft-org-roboto-bold-line-height: 24px;
+  --www-diversitycraft-org-roboto-bold-font-style: normal;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: linear-gradient(to bottom, gray, bisque);
+}
+
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+
+a {
+  color: darkred;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -5,11 +87,9 @@
   gap: 10px;
   padding: 10px 25px;
   position: relative;
-
-  /* THIS IS MY FIX */
-	max-width: 1000px;
+  max-width: 1000px;
   min-height: min-content;
-	margin: 0 auto;  
+  margin: 0 auto;
 }
 
 .main-container .logo-container {
@@ -43,8 +123,8 @@
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  margin-left: -1.00px;
-  margin-right: -1.00px;
+  margin-left: -1px;
+  margin-right: -1px;
   border: 1px solid;
   border-color: #000000;
 }
@@ -66,7 +146,7 @@
   display: flex;
   align-items: center;
   width: fit-content;
-  margin-top: -1.00px;
+  margin-top: -1px;
   font-family: "Inter-Bold", Helvetica;
   font-weight: 700;
   color: #ffffff;
@@ -92,7 +172,7 @@
 .main-container .intro-description {
   position: relative;
   align-self: stretch;
-  margin-top: -1.00px;
+  margin-top: -1px;
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: #000000;
@@ -155,7 +235,7 @@
   display: flex;
   align-items: center;
   width: fit-content;
-  margin-top: -1.00px;
+  margin-top: -1px;
   font-family: "Inter-Bold", Helvetica;
   font-weight: 700;
   color: #a52a2a;
@@ -192,7 +272,7 @@
   display: flex;
   align-items: center;
   align-self: stretch;
-  margin-top: -1.00px;
+  margin-top: -1px;
   font-family: "Inter-Bold", Helvetica;
   font-weight: 700;
   color: #000000;
@@ -259,7 +339,7 @@
   display: flex;
   align-items: center;
   width: fit-content;
-  margin-top: -1.00px;
+  margin-top: -1px;
   font-family: "Inter-Bold", Helvetica;
   font-weight: 400;
   color: transparent;
@@ -326,62 +406,53 @@
 }
 
 .main-container .news-content {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  align-items: start;
   justify-content: center;
-  gap: 10px 10px;
-  position: relative;
-  align-self: stretch;
+  gap: 20px 10px;
   width: 100%;
-  flex: 0 0 auto;
   background-color: #ffffff;
+  padding: 15px;
 }
 
 .main-container .news-single {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
   padding: 10px;
-  position: relative;
-  flex: 0 0 auto;
+  width: 100%;
 }
 
 .main-container .news-headline-text {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: fit-content;
-  margin-top: -1.00px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  white-space: normal;
   font-family: "Inter-Bold", Helvetica;
   font-weight: 700;
   color: #a52a2a;
   font-size: 16px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
+  line-height: 1.4;
 }
 
 .main-container .element {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  aspect-ratio: 1;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
+  border: 1px solid #a52a2a;
 }
 
 .main-container .news-description {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: fit-content;
+  width: 100%;
+  text-align: center;
   font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
   font-size: 14px;
-  letter-spacing: 0;
-  line-height: normal;
+  line-height: 1.4;
+  color: #000000;
 }
 
 .main-container .stats-content {
@@ -400,7 +471,7 @@
 
 .main-container .stats-text {
   width: fit-content;
-  margin-top: -1.00px;
+  margin-top: -1px;
   font-family: "Inter-Bold", Helvetica;
   font-weight: 700;
   color: #000000;
@@ -408,7 +479,7 @@
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
-  white-space: nowrap;
+  white-space: warp;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -518,7 +589,7 @@
   display: flex;
   align-items: center;
   width: fit-content;
-  margin-top: -1.00px;
+  margin-top: -1px;
   font-family: var(--www-diversitycraft-org-roboto-regular-font-family);
   color: #aaaaaa;
   font-size: var(--www-diversitycraft-org-roboto-regular-font-size);
@@ -554,7 +625,7 @@
   align-items: center;
   justify-content: center;
   width: fit-content;
-  margin-top: -1.00px;
+  margin-top: -1px;
   font-family: var(--www-diversitycraft-org-roboto-bold-font-family);
   font-weight: var(--www-diversitycraft-org-roboto-bold-font-weight);
   color: #ffffff;
@@ -626,7 +697,7 @@
   display: flex;
   align-items: center;
   width: fit-content;
-  margin-top: -1.00px;
+  margin-top: -1px;
   font-family: var(--www-diversitycraft-org-roboto-regular-font-family);
   font-weight: var(--www-diversitycraft-org-roboto-regular-font-weight);
   color: #ffaa00;
@@ -650,7 +721,7 @@
   display: flex;
   align-items: center;
   align-self: stretch;
-  margin-top: -1.00px;
+  margin-top: -1px;
   font-family: var(--www-diversitycraft-org-roboto-regular-font-family);
   color: transparent;
   font-size: var(--www-diversitycraft-org-roboto-regular-font-size);
@@ -724,7 +795,7 @@
   display: flex;
   align-items: center;
   width: fit-content;
-  margin-top: -1.00px;
+  margin-top: -1px;
   font-family: var(--www-diversitycraft-org-inter-bold-font-family);
   font-weight: var(--www-diversitycraft-org-inter-bold-font-weight);
   color: #8b0000;
@@ -808,7 +879,7 @@
 .main-container .copyright-text {
   display: flex;
   width: 218px;
-  margin-top: -1.00px;
+  margin-top: -1px;
   font-family: "Inter-Bold", Helvetica;
   font-weight: 700;
   color: #a52a2a;
