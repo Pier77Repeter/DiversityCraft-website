@@ -168,7 +168,7 @@ strong {
   position: relative;
 }
 
-.main-container .div {
+.main-container .navmenu-separator {
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -203,13 +203,13 @@ strong {
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
-  white-space: nowrap;
+  white-space: wrap;
   align-items: center;
   position: relative;
   margin: 0;
 }
 
-.main-container .commands-container {
+.main-container .news-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -224,7 +224,7 @@ strong {
   border-color: #000000;
 }
 
-.main-container .commands-container-wrapper {
+.main-container .news-container-wrapper {
   gap: 10px;
   padding: 7px 10px;
   background-color: #ffccaa;
@@ -277,7 +277,7 @@ strong {
   line-height: 25px;
 }
 
-.main-container .commands-container-2 {
+.main-container .news-content-container {
   flex-direction: column;
   gap: 15px;
   padding: 10px;
@@ -290,7 +290,7 @@ strong {
   flex: 0 0 auto;
 }
 
-.main-container .command-table {
+.main-container .news-table {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -324,8 +324,7 @@ strong {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  white-space: nowrap;
+  white-space: wrap;
   position: relative;
   width: fit-content;
   font-family: "Inter-Regular", Helvetica;
@@ -349,14 +348,12 @@ strong {
   margin: 0;
 }
 
-.main-container .commands-jpg {
+.main-container .news-image img {
   position: relative;
   width: 100%;
   max-width: 824px;
-  aspect-ratio: 822 / 315;
   margin: 0px;
   display: block;
-  background-image: url(../media/commands.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -388,35 +385,7 @@ strong {
   margin: 0;
 }
 
-.main-container .anonchat-jpg {
-  position: relative;
-  width: 100%;
-  max-width: 824px;
-  aspect-ratio: 822 / 65;
-  margin: 0px;
-  display: block;
-  background-image: url(../media/anonchat.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border: 1px solid #000000;
-}
-
-.main-container .donatorrole-jpg {
-  position: relative;
-  width: 100%;
-  max-width: 824px;
-  aspect-ratio: 822 / 227;
-  margin: 0px;
-  display: block;
-  background-image: url(../media/donatorrole.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border: 1px solid #000000;
-}
-
-.main-container .separator-2 {
+.main-container .separator-bottom {
   background-color: #a52a2a;
   position: relative;
   align-self: stretch;
