@@ -293,7 +293,6 @@ a:hover {
   letter-spacing: 0;
 }
 
-/* Nav list reset - removes default ul/li styles to match original text-list appearance */
 .main-container .nav-list {
   list-style: none;
   margin: 0;
@@ -354,7 +353,7 @@ a:hover {
   color: #000000;
 }
 
-.main-container .text-wrapper-2 {
+.main-container .text-coloured-paid {
   font-weight: 700;
   color: #008000;
 }
@@ -373,11 +372,7 @@ a:hover {
   white-space: nowrap;
 }
 
-.main-container .text-wrapper-3 {
-  color: #000000;
-}
-
-.main-container .text-wrapper-4 {
+.main-container .text-coloured-notpaid {
   color: #ff0000;
 }
 
@@ -392,7 +387,7 @@ a:hover {
   line-height: 20px;
 }
 
-.main-container .text-wrapper-5 {
+.main-container .text-donations-description {
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: #000000;
@@ -401,7 +396,7 @@ a:hover {
   line-height: 20px;
 }
 
-.main-container .text-wrapper-6 {
+.main-container .text-donations-link {
   text-decoration: underline;
 }
 
@@ -563,44 +558,6 @@ a:hover {
   position: relative;
 }
 
-.main-container .div-row {
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 0px 0px;
-  display: flex;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
-.main-container .div-col-auto {
-  display: inline-flex;
-  max-width: 726px;
-  align-items: flex-start;
-  flex: 0 0 auto;
-  align-self: stretch;
-  flex-direction: column;
-  padding: 4px;
-  position: relative;
-}
-
-.main-container .text-wrapper-7 {
-  display: flex;
-  align-items: center;
-  width: fit-content;
-  margin-top: -1px;
-  font-family: var(--www-diversitycraft-org-roboto-regular-font-family);
-  color: #aaaaaa;
-  font-size: var(--www-diversitycraft-org-roboto-regular-font-size);
-  line-height: var(--www-diversitycraft-org-roboto-regular-line-height);
-  white-space: nowrap;
-  position: relative;
-  font-weight: var(--www-diversitycraft-org-roboto-regular-font-weight);
-  letter-spacing: var(--www-diversitycraft-org-roboto-regular-letter-spacing);
-  font-style: var(--www-diversitycraft-org-roboto-regular-font-style);
-}
-
 .main-container .img {
   align-self: stretch;
   position: relative;
@@ -608,151 +565,7 @@ a:hover {
   flex: 0 0 auto;
 }
 
-.main-container .div-col {
-  display: flex;
-  align-items: center;
-  flex: 1;
-  align-self: stretch;
-  flex-grow: 1;
-  flex-direction: column;
-  padding: 4px;
-  position: relative;
-}
-
-.main-container .text-wrapper-8 {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: fit-content;
-  margin-top: -1px;
-  font-family: var(--www-diversitycraft-org-roboto-bold-font-family);
-  font-weight: var(--www-diversitycraft-org-roboto-bold-font-weight);
-  color: #ffffff;
-  font-size: var(--www-diversitycraft-org-roboto-bold-font-size);
-  text-align: center;
-  letter-spacing: var(--www-diversitycraft-org-roboto-bold-letter-spacing);
-  line-height: var(--www-diversitycraft-org-roboto-bold-line-height);
-  white-space: nowrap;
-  font-style: var(--www-diversitycraft-org-roboto-bold-font-style);
-}
-
-.main-container .div-row-2 {
-  align-items: center;
-  display: flex;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
-.main-container .element-png-wrapper {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 4px;
-  position: relative;
-  max-width: 726px;
-  flex: 0 0 auto;
-}
-
-.main-container .element-png {
-  position: relative;
-  width: 48px;
-  height: 48px;
-  background-image: url(./img/671f10de2c7d8318-png.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.main-container .div-col-2 {
-  display: flex;
-  align-items: flex-start;
-  flex: 1;
-  flex-grow: 1;
-  flex-direction: column;
-  padding: 4px;
-  position: relative;
-}
-
-.main-container .div-2 {
-  display: flex;
-  max-height: 48px;
-  align-items: flex-start;
-  gap: 605.92px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  overflow-x: scroll;
-}
-
-.main-container .div-2::-webkit-scrollbar {
-  width: 0;
-  display: none;
-}
-
-.main-container .text-wrapper-9 {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: fit-content;
-  margin-top: -1px;
-  font-family: var(--www-diversitycraft-org-roboto-regular-font-family);
-  font-weight: var(--www-diversitycraft-org-roboto-regular-font-weight);
-  color: #ffaa00;
-  font-size: var(--www-diversitycraft-org-roboto-regular-font-size);
-  letter-spacing: var(--www-diversitycraft-org-roboto-regular-letter-spacing);
-  line-height: var(--www-diversitycraft-org-roboto-regular-line-height);
-  white-space: nowrap;
-  font-style: var(--www-diversitycraft-org-roboto-regular-font-style);
-}
-
-.main-container .span-float-end {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
-  flex: 1;
-  flex-grow: 1;
-}
-
-.main-container .p {
-  display: flex;
-  align-items: center;
-  align-self: stretch;
-  margin-top: -1px;
-  font-family: var(--www-diversitycraft-org-roboto-regular-font-family);
-  color: transparent;
-  font-size: var(--www-diversitycraft-org-roboto-regular-font-size);
-  line-height: var(--www-diversitycraft-org-roboto-regular-line-height);
-  position: relative;
-  font-weight: var(--www-diversitycraft-org-roboto-regular-font-weight);
-  letter-spacing: var(--www-diversitycraft-org-roboto-regular-letter-spacing);
-  font-style: var(--www-diversitycraft-org-roboto-regular-font-style);
-}
-
-.main-container .text-wrapper-10 {
-  color: #aaaaaa;
-  font-family: var(--www-diversitycraft-org-roboto-regular-font-family);
-  font-style: var(--www-diversitycraft-org-roboto-regular-font-style);
-  font-weight: var(--www-diversitycraft-org-roboto-regular-font-weight);
-  letter-spacing: var(--www-diversitycraft-org-roboto-regular-letter-spacing);
-  line-height: var(--www-diversitycraft-org-roboto-regular-line-height);
-  font-size: var(--www-diversitycraft-org-roboto-regular-font-size);
-}
-
-.main-container .text-wrapper-11 {
-  color: #555555;
-  font-family: var(--www-diversitycraft-org-roboto-regular-font-family);
-  font-style: var(--www-diversitycraft-org-roboto-regular-font-style);
-  font-weight: var(--www-diversitycraft-org-roboto-regular-font-weight);
-  letter-spacing: var(--www-diversitycraft-org-roboto-regular-letter-spacing);
-  line-height: var(--www-diversitycraft-org-roboto-regular-line-height);
-  font-size: var(--www-diversitycraft-org-roboto-regular-font-size);
-}
-
-.main-container .div-3 {
+.main-container .footer-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -790,7 +603,7 @@ a:hover {
   border-color: #a52a2a;
 }
 
-.main-container .text-wrapper-12 {
+.main-container .footer-text-link {
   position: relative;
   display: flex;
   align-items: center;

@@ -19,11 +19,6 @@ html,
 body {
   background: linear-gradient(to bottom, gray, bisque);
 }
-/* a blue color as a generic focus style */
-button:focus-visible {
-  outline: 2px solid #4a90e2 !important;
-  outline: -webkit-focus-ring-color auto 5px !important;
-}
 
 a {
   color: blue;
@@ -32,43 +27,6 @@ a {
 
 a:hover {
   color: red;
-}
-
-:root {
-  --wwwdiversitycraftorgblue: rgba(0, 0, 255, 1);
-  --wwwdiversitycraftorgemperor: rgba(85, 85, 85, 1);
-  --wwwdiversitycraftorgjapanese-laurel: rgba(0, 128, 0, 1);
-  --wwwdiversitycraftorgred: rgba(255, 0, 0, 1);
-  --www-diversitycraft-org-inter-bold-font-family: "Inter", Helvetica;
-  --www-diversitycraft-org-inter-bold-font-weight: 700;
-  --www-diversitycraft-org-inter-bold-font-size: 36px;
-  --www-diversitycraft-org-inter-bold-letter-spacing: 0px;
-  --www-diversitycraft-org-inter-bold-line-height: normal;
-  --www-diversitycraft-org-inter-bold-font-style: normal;
-  --www-diversitycraft-org-inter-bold-underline-font-family: "Inter", Helvetica;
-  --www-diversitycraft-org-inter-bold-underline-font-weight: 700;
-  --www-diversitycraft-org-inter-bold-underline-font-size: 14.899999618530273px;
-  --www-diversitycraft-org-inter-bold-underline-letter-spacing: 0px;
-  --www-diversitycraft-org-inter-bold-underline-line-height: 24px;
-  --www-diversitycraft-org-inter-bold-underline-font-style: normal;
-  --www-diversitycraft-org-inter-regular-font-family: "Inter", Helvetica;
-  --www-diversitycraft-org-inter-regular-font-weight: 400;
-  --www-diversitycraft-org-inter-regular-font-size: 14.899999618530273px;
-  --www-diversitycraft-org-inter-regular-letter-spacing: 0px;
-  --www-diversitycraft-org-inter-regular-line-height: normal;
-  --www-diversitycraft-org-inter-regular-font-style: normal;
-  --www-diversitycraft-org-roboto-regular-font-family: "Roboto", Helvetica;
-  --www-diversitycraft-org-roboto-regular-font-weight: 400;
-  --www-diversitycraft-org-roboto-regular-font-size: 16px;
-  --www-diversitycraft-org-roboto-regular-letter-spacing: 0px;
-  --www-diversitycraft-org-roboto-regular-line-height: 24px;
-  --www-diversitycraft-org-roboto-regular-font-style: normal;
-  --www-diversitycraft-org-roboto-bold-font-family: "Roboto", Helvetica;
-  --www-diversitycraft-org-roboto-bold-font-weight: 700;
-  --www-diversitycraft-org-roboto-bold-font-size: 16px;
-  --www-diversitycraft-org-roboto-bold-letter-spacing: 0px;
-  --www-diversitycraft-org-roboto-bold-line-height: 24px;
-  --www-diversitycraft-org-roboto-bold-font-style: normal;
 }
 
 .main-container {
@@ -105,7 +63,7 @@ a:hover {
   object-fit: cover;
 }
 
-.main-container .div-wrapper {
+.main-container .title-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -116,7 +74,7 @@ a:hover {
   flex: 0 0 auto;
 }
 
-.main-container .section-name-text {
+.main-container .page-title-text {
   position: relative;
   display: flex;
   align-items: center;
@@ -127,7 +85,7 @@ a:hover {
   font-size: 40px;
   letter-spacing: 0;
   line-height: normal;
-  white-space: wrap;
+  white-space: nowrap;
   margin: 0;
 }
 
@@ -152,7 +110,7 @@ a:hover {
   object-fit: cover;
 }
 
-.main-container .navmenu-container {
+.main-container .nav-container {
   display: inline-flex;
   flex-direction: column;
   gap: 10px;
@@ -162,7 +120,7 @@ a:hover {
   position: relative;
 }
 
-.main-container .div {
+.main-container .nav-divider {
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -170,7 +128,7 @@ a:hover {
   background-color: #bcaa00;
 }
 
-.main-container .navmenu-title {
+.main-container .nav-title {
   display: flex;
   justify-content: center;
   width: fit-content;
@@ -186,7 +144,7 @@ a:hover {
   margin: 0;
 }
 
-.main-container .navmenu-options {
+.main-container .nav-options {
   display: flex;
   justify-content: center;
   width: fit-content;
@@ -197,29 +155,29 @@ a:hover {
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
-  white-space: nowrap;
+  white-space: wrap;
   align-items: center;
   position: relative;
   margin: 0;
 }
 
-.main-container .text-wrapper {
-  color: #000000;
-}
-
-.main-container .span {
-  color: #0000ff;
+.main-container .nav-links {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: -1px;
   font-family: "Inter-Bold", Helvetica;
   font-weight: 700;
-  font-size: 16px;
-  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: wrap;
+  margin-bottom: 0;
 }
 
-.main-container .span:hover {
-  text-decoration: underline;
-}
-
-.main-container .modifications {
+.main-container .content-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -230,11 +188,10 @@ a:hover {
   flex: 0 0 auto;
   margin-left: -1px;
   margin-right: -1px;
-  border: 1px solid;
-  border-color: #000000;
+  border: 1px solid #000000;
 }
 
-.main-container .modifications-wrapper {
+.main-container .content-header {
   gap: 10px;
   padding: 7px 10px;
   background-color: #ffccaa;
@@ -246,7 +203,7 @@ a:hover {
   flex: 0 0 auto;
 }
 
-.main-container .modifications-2 {
+.main-container .section-title {
   position: relative;
   display: flex;
   align-items: center;
@@ -262,7 +219,7 @@ a:hover {
   margin-bottom: 0;
 }
 
-.main-container .modifications-3 {
+.main-container .content-body {
   flex-direction: column;
   gap: 15px;
   padding: 10px;
@@ -275,7 +232,7 @@ a:hover {
   flex: 0 0 auto;
 }
 
-.main-container .modification-table {
+.main-container .info-table {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -287,7 +244,7 @@ a:hover {
   overflow: hidden;
 }
 
-.main-container .title {
+.main-container .info-title {
   position: relative;
   display: flex;
   align-items: center;
@@ -305,9 +262,9 @@ a:hover {
   margin-bottom: 0;
 }
 
-.main-container .paragraph {
+.main-container .info-description {
   position: relative;
-  width: fit-content;
+  width: 100%;
   max-width: 800px;
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
@@ -316,52 +273,68 @@ a:hover {
   letter-spacing: 0;
   line-height: 25px;
   margin: 0;
+  text-align: left;
 }
 
-.main-container .navmenu-container .text-wrapper {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: fit-content;
-  margin-top: -1px;
-  font-family: "Inter-Bold", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: wrap;
-  margin-bottom: 0;
-}
-
-.main-container .text-wrapper-2 {
+.main-container .description-text {
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: #000000;
   font-size: 14px;
-  letter-spacing: 0;
   line-height: 25px;
 }
 
-.main-container .text-wrapper-3 {
+.main-container .highlighted-link {
   text-decoration: underline;
 }
 
-.main-container .sitting-jpg {
+.main-container .sitting-image,
+.main-container .voicechat-image,
+.main-container .cpm-image,
+.main-container .anti-cheat-image {
   position: relative;
   width: 100%;
   max-width: 824px;
-  aspect-ratio: 822 / 462;
   margin: 0px;
   display: block;
-  background-image: url(../media/sitting.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border: 1px solid #000000;
 }
 
-.main-container .separator {
+.main-container .sitting-image {
+  aspect-ratio: 822 / 462;
+  background-image: url("../media/sitting.jpg");
+}
+
+.main-container .voicechat-image {
+  aspect-ratio: 1280 / 720;
+  background-image: url("../media/voicechat.jpg");
+}
+
+.main-container .cpm-image {
+  aspect-ratio: 1920 / 1017;
+  background-image: url("../media/cpm.jpg");
+}
+
+.main-container .anti-cheat-image {
+  aspect-ratio: 822 / 411;
+  background-image: url("../media/boatfly.jpg");
+}
+
+.main-container .divider-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.main-container .content-divider {
   background-color: #808080;
   position: relative;
   align-self: stretch;
@@ -371,49 +344,18 @@ a:hover {
   margin: 0;
 }
 
-.main-container .voicechat-jpg {
+.main-container .footer-divider-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   position: relative;
+  align-self: stretch;
   width: 100%;
-  max-width: 824px;
-  aspect-ratio: 1280 / 720;
-  margin: 0px;
-  display: block;
-  background-image: url(../media/voicechat.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border: 1px solid #000000;
+  flex: 0 0 auto;
 }
 
-.main-container .cpm-jpg {
-  position: relative;
-  width: 100%;
-  max-width: 824px;
-  aspect-ratio: 1920 / 1017;
-  margin: 0px;
-  display: block;
-  background-image: url(../media/cpm.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border: 1px solid #000000;
-}
-
-.main-container .ac-boat-jpg {
-  position: relative;
-  width: 100%;
-  max-width: 824px;
-  aspect-ratio: 822 / 411;
-  margin: 0px;
-  display: block;
-  background-image: url(../media/boatfly.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border: 1px solid #000000;
-}
-
-.main-container .separator-2 {
+.main-container .footer-divider {
   background-color: #a52a2a;
   position: relative;
   align-self: stretch;
@@ -423,7 +365,7 @@ a:hover {
   margin: 0;
 }
 
-.main-container .copyright-container {
+.main-container .footer-container {
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
@@ -434,7 +376,7 @@ a:hover {
   position: relative;
 }
 
-.main-container .copyright-text {
+.main-container .footer-text {
   display: flex;
   width: 218px;
   margin-top: -1px;
